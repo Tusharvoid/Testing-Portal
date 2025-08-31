@@ -1,0 +1,31 @@
+[server]
+# Production optimizations for Streamlit Cloud
+maxUploadSize = 200
+maxMessageSize = 200
+enableCORS = true
+enableXsrfProtection = false
+runOnSave = false
+headless = true
+# Fix for inotify instance limit on Streamlit Cloud
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+# Memory and performance settings
+magicEnabled = true
+fastReruns = true
+installTracer = false
+# Disable file watching for production stability
+postProcessEnabled = false
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+
+[global]
+# Force package installation on startup
+developmentMode = false

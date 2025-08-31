@@ -1,0 +1,13 @@
+wget
+unzip
+xvfb
+libnss3
+libatk-bridge2.0-0
+libdrm2
+libxcomposite1
+libxdamage1
+libxrandr2
+libgbm1
+libgtk-3-0
+libasound2
+firefox-esr
