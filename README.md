@@ -7,24 +7,15 @@ A comprehensive, cloud-native platform for web automation testing, built with St
 ## 📸 Screenshots
 
 <p align="center">
-  <a href="https://postimg.cc/V0dfS9bK" target="_blank">
-    <img src="https://i.postimg.cc/V0dfS9bK/Screenshot-2025-09-01-001532.png" alt="Dashboard" width="400"/>
-  </a>
-  <a href="https://postimg.cc/yWb6MGwt" target="_blank">
-    <img src="https://i.postimg.cc/yWb6MGwt/Screenshot-2025-09-01-001638.png" alt="Test Editor" width="400"/>
-  </a>
+  <img src="https://i.postimg.cc/D0c8MBf3/Screenshot-2025-09-01-001532.png" alt="Dashboard" width="48%"/>
+  <img src="https://i.postimg.cc/gkYwZF4z/Screenshot-2025-09-01-001638.png" alt="Test Editor" width="48%"/>
 </p>
 
 <p align="center">
-  <a href="https://postimg.cc/hhjP3n3V" target="_blank">
-    <img src="https://i.postimg.cc/hhjP3n3V/Screenshot-2025-09-01-001648.png" alt="Execution Results" width="400"/>
-  </a>
-  <a href="https://postimg.cc/ZCvY4cmR" target="_blank">
-    <img src="https://i.postimg.cc/ZCvY4cmR/Screenshot-2025-09-01-001717.png" alt="Screenshot Viewer" width="400"/>
-  </a>
+  <img src="https://i.postimg.cc/xjGJ8Tvp/Screenshot-2025-09-01-001648.png" alt="Execution Results" width="48%"/>
+  <img src="https://i.postimg.cc/4NBYvLFz/Screenshot-2025-09-01-001717.png" alt="Screenshot Viewer" width="48%"/>
 </p>
 
----
 ---
 
 ## 🎨 System Design
