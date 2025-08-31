@@ -6,13 +6,23 @@ A comprehensive, cloud-native platform for web automation testing, built with St
 
 ## 📸 Screenshots
 
-| Dashboard | Test Editor |
-|-----------|-------------|
-| ![Dashboard](https://i.postimg.cc/V0dfS9bK/Screenshot-2025-09-01-001532.png) | ![Test Editor](https://i.postimg.cc/yWb6MGwt/Screenshot-2025-09-01-001638.png) |
+<p align="center">
+  <a href="https://postimg.cc/V0dfS9bK" target="_blank">
+    <img src="https://i.postimg.cc/V0dfS9bK/Screenshot-2025-09-01-001532.png" alt="Dashboard" width="400"/>
+  </a>
+  <a href="https://postimg.cc/yWb6MGwt" target="_blank">
+    <img src="https://i.postimg.cc/yWb6MGwt/Screenshot-2025-09-01-001638.png" alt="Test Editor" width="400"/>
+  </a>
+</p>
 
-| Execution Results | Screenshot Viewer |
-|-------------------|-------------------|
-| ![Execution Results](https://i.postimg.cc/hhjP3n3V/Screenshot-2025-09-01-001648.png) | ![Screenshot Viewer](https://i.postimg.cc/ZCvY4cmR/Screenshot-2025-09-01-001717.png) |
+<p align="center">
+  <a href="https://postimg.cc/hhjP3n3V" target="_blank">
+    <img src="https://i.postimg.cc/hhjP3n3V/Screenshot-2025-09-01-001648.png" alt="Execution Results" width="400"/>
+  </a>
+  <a href="https://postimg.cc/ZCvY4cmR" target="_blank">
+    <img src="https://i.postimg.cc/ZCvY4cmR/Screenshot-2025-09-01-001717.png" alt="Screenshot Viewer" width="400"/>
+  </a>
+</p>
 
 ---
 ---
