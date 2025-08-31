@@ -4,6 +4,17 @@
 
 A comprehensive, cloud-native platform for web automation testing, built with Streamlit and Selenium. This portal allows you to upload, create, and execute Selenium IDE (`.side`) test files directly from a web interface, with results and screenshots saved to a MongoDB database.
 
+## 📸 Screenshots
+
+| Dashboard | Test Editor |
+|-----------|-------------|
+| ![Dashboard](https://i.postimg.cc/V0dfS9bK/Screenshot-2025-09-01-001532.png) | ![Test Editor](https://i.postimg.cc/yWb6MGwt/Screenshot-2025-09-01-001638.png) |
+
+| Execution Results | Screenshot Viewer |
+|-------------------|-------------------|
+| ![Execution Results](https://i.postimg.cc/hhjP3n3V/Screenshot-2025-09-01-001648.png) | ![Screenshot Viewer](https://i.postimg.cc/ZCvY4cmR/Screenshot-2025-09-01-001717.png) |
+
+---
 ---
 
 ## 🎨 System Design
