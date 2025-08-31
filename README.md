@@ -1,6 +1,4 @@
-# Testing Portal 🚀
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://testinga.streamlit.app/)
+# Testing Portal
 
 A comprehensive, cloud-native platform for web automation testing, built with Streamlit and Selenium. This portal allows you to upload, create, and execute Selenium IDE (`.side`) test files directly from a web interface, with results and screenshots saved to a MongoDB database.
 
@@ -12,47 +10,7 @@ A comprehensive, cloud-native platform for web automation testing, built with St
 
 The entire platform is designed for scalability and maintainability, running serverlessly on Streamlit Cloud.
 
-```mermaid
-graph TD
-    subgraph "User Interface"
-        A[User] -->|Interacts with| B(Streamlit Cloud App);
-    end
-
-    subgraph "Deployment & Code"
-        B -->|Hosted on| C[Streamlit Cloud];
-        C -->|Pulls code from| D[GitHub Repository];
-    end
-
-    subgraph "Core Application Logic"
-        B -->|Manages| E[web_app.py];
-        E -->|Calls| F[main.py for test execution];
-        E -->|Uses| G[db_manager.py for data];
-    end
-
-    subgraph "Backend Services & Automation"
-        F -->|Uses Selenium to control| H{Browser Automation};
-        H -->|Runs on| I[Chrome / Firefox on Streamlit Cloud];
-        I -->|Tests| J[Target Web Application];
-        
-        G -->|Connects to| K[(MongoDB Atlas)];
-    end
-
-    subgraph "Dependencies"
-        D -->|Contains| L[requirements.txt];
-        D -->|Contains| M[packages.txt];
-        C -->|Installs Python packages from| L;
-        C -->|Installs system packages from| M;
-    end
-
-    subgraph "Database Schema: 'side_test_db'"
-        K -.->|Contains| SCHEMA_COLL(("<div style='font-weight:bold; font-size:1.1em; margin-bottom:5px;'>runs_collection</div><div style='text-align:left; font-family:monospace; font-size:0.9em;'>- _id: ObjectId<br>- app_name: String<br>- timestamp: DateTime<br>- zip_file: Binary<br>- original_side: Binary<br>- modified_side: Binary<br>- user_params: Object<br>- param_map: Object<br>- ...metadata</div>"))
-    end
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#ffc,stroke:#333,stroke-width:2px
-    style K fill:#9f9,stroke:#333,stroke-width:2px
-    style J fill:#cff,stroke:#333,stroke-width:2px
-```
+![System Design](systemdesign.png)
 
 ---
 
@@ -137,26 +95,6 @@ This repository is optimized for one-click deployment on Streamlit Cloud.
     uri = "your_mongodb_atlas_connection_string"
     ```
 5.  Click "**Deploy!**". Streamlit Cloud will automatically install all Python and system dependencies from `requirements.txt` and `packages.txt`.
-
----
-
-## 📈 Project Progress
-
-A visual representation of the development journey.
-
-```
-      ▲
-      │                             
-      │                            /
-      │                           /
-      │                          /
-      │                         /
-      │                        /
-      │ _______________/
-      │/
-      └────────────────────────────────────────────────>
-      Time
-```
 
 ---
 
