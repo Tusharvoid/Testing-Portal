@@ -1,8 +1,8 @@
 # Testing Portal
 
-A comprehensive, cloud-native platform for web automation testing, built with Streamlit and Selenium. This portal allows you to upload, create, and execute Selenium IDE (`.side`) test files directly from a web interface, with results and screenshots saved to a MongoDB database.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://testinga.streamlit.app/)
 
-**Live Application:** [**https://testinga.streamlit.app/**](https://testinga.streamlit.app/)
+A comprehensive, cloud-native platform for web automation testing, built with Streamlit and Selenium. This portal allows you to upload, create, and execute Selenium IDE (`.side`) test files directly from a web interface, with results and screenshots saved to a MongoDB database.
 
 ---
 
@@ -10,7 +10,7 @@ A comprehensive, cloud-native platform for web automation testing, built with St
 
 The entire platform is designed for scalability and maintainability, running serverlessly on Streamlit Cloud.
 
-![System Design](systemdesign.png)
+<img src="systemdesign.png" alt="System Design" width="800"/>
 
 ---
 
